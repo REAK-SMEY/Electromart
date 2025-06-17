@@ -6,7 +6,7 @@ import ProductContext from '../store/ProductContext';
 import { CartContext } from '../store/CartContext';
 import { motion } from 'framer-motion';
 
-function PopularProducts() {
+function popularProducts() {
   const { products, isloading } = useContext(ProductContext);
   const { addItem } = useContext(CartContext);
 
@@ -100,4 +100,4 @@ function PopularProducts() {
   );
 }
 
-export default PopularProducts;
+export default popularProducts;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Getdiscount from '../components/Getdiscount'
-import PopularProducts from '../components/popularProducts'
+import popularProducts from '../components/popularProducts'
 import HeroTwo from '../components/HeroTwo'
 import Hero from '../components/Hero'
 import ShopCategories from '../components/ShopCategories'
@@ -18,7 +18,7 @@ function Home() {
       <ShopCategories/>
       <BestDeals/>
       <Getdiscount/>
-      <PopularProducts/>
+      <popularProducts/>
       <HeroTwo/>
       <BestDeals2/>
       <PayBank/>
