@@ -8,7 +8,7 @@ import BestDeals from '../components/BestDeals'
 import BestDeals2 from '../components/Bestdeals2'
 import PayBank from '../components/PayBank'
 import TrandingProducts from '../components/TrandingProducts'
-import PopularProducts from '../components/popularProducts'
+// import PopularProducts from '../components/popularProducts'
 
 
 
@@ -19,7 +19,7 @@ function Home() {
       <ShopCategories/>
       <BestDeals/>
       <Getdiscount/>
-      <PopularProducts/>
+      {/* <PopularProducts/> */}
       <HeroTwo/>
       <BestDeals2/>
       <PayBank/>
